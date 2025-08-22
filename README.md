@@ -1,0 +1,1 @@
+This exercise combines the concepts of generics, lambda expressions, streams, and dates. The exercise involves creating a simple task list application using Java. You’ll need to implement classes to manage tasks, create a task list, and perform operations like filtering, sorting, and date-based calculations.
