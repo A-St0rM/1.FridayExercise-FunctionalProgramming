@@ -18,4 +18,13 @@ public class GardenTask extends Task{
     public void setGardenLocation(String gardenLocation) {
         this.gardenLocation = gardenLocation;
     }
+
+    @Override
+    public String toString() {
+        return "GardenTask" +
+                "title='" + getTitle() + '\'' +
+                ", description='" + getDescription() + '\'' +
+                ", dueDate=" + getDueDate() +
+                ", gardenLocation='" + gardenLocation;
+    }
 }

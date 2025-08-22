@@ -25,4 +25,12 @@ public class Task {
     public LocalDate getDueDate() {
         return dueDate;
     }
+
+    @Override
+    public String toString() {
+        return "Task" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", dueDate=" + dueDate;
+    }
 }

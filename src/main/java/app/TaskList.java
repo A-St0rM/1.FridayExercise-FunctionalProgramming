@@ -48,16 +48,13 @@ public class TaskList <T extends Task> implements Iterable<T>{
     }
 
     //Print the list of tasks.
-
-
-
-
-
-
-
+    public void printTasks(){
+        tasks.forEach(System.out::println);
+    }
 
     @Override
     public Iterator<T> iterator() {
         return tasks.iterator();
     }
+
 }
